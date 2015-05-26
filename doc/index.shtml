@@ -9,6 +9,11 @@
     <p>
         <h2>Linked List</h2>
     </p>
+
+    <p>
+        A simple example of implementing a linked list data structure
+        in C.
+    </p>
 </body>
 
 </html>
