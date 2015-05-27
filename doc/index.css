@@ -1,0 +1,817 @@
+/*
+ * +----------------------------------------------------------------------+
+ * |                      index.css - iDevelopment.info                   |
+ * +----------------------------------------------------------------------+
+ */
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | TABLE: Message Dialog Box                                            |
+ * +----------------------------------------------------------------------+
+ */
+
+table.messageDialogBox {
+        border-width: 2px;
+        border-spacing: 2px;
+        border-style: ridge;
+        border-color: gray;
+        border-collapse: separate;
+    background-color: rgb(224, 224, 224);
+    width: 590px;
+}
+
+table.messageDialogBox td {
+}
+
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | TABLE: Code Example                                                  |
+ * +----------------------------------------------------------------------+
+ */
+
+table.codeExampleTable {
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: outset;
+    border-color: rgb(196, 209, 230);
+    border-collapse: collapse;
+    background-color: rgb(238, 243, 247);
+    width: 95%;
+}
+
+table.codeExampleTable th {
+    border-width: 1px;
+    padding: 4px;
+    border-style: inset;
+    border-color: rgb(196, 209, 230);
+    background-color: rgb(238, 243, 247);
+    -moz-border-radius: 0px 0px 0px 0px;
+}
+
+table.codeExampleTable td {
+    border-width: 1px;
+    padding: 4px;
+    border-style: inset;
+    border-color: rgb(196, 209, 230);
+    background-color: rgb(238, 243, 247);
+    -moz-border-radius: 0px 0px 0px 0px;
+}
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | TABLE: Cell Gradation - (Blue)                                       |
+ * +----------------------------------------------------------------------+
+ */
+
+table.cellGradationTable {
+    font-family: verdana,arial,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+
+table.cellGradationTable caption {
+    font-family: verdana,arial,sans-serif;
+    font-size: 12px;
+    color: #693019;
+    font-weight: bold;
+    border-width: 1px;
+    padding: 8px;
+    border-style: none;
+    border-color: none;
+}
+
+table.cellGradationTable th {
+    background: #b5cfd2 url('/images/table_cell_blue.jpg') no-repeat;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #999999;
+}
+
+table.cellGradationTable td {
+    /* background: #dcddc0 url('/images/table_cell_grey.jpg') no-repeat; */
+    background: #cec7ad url('/images/table_cell_grey.jpg') no-repeat;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #999999;
+}
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | TABLE: Cell Clear                                                    |
+ * +----------------------------------------------------------------------+
+ */
+
+table.cellClearTable {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #000000;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+table.cellClearTable caption {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    font-size: 12px;
+    color: #693019;
+    font-weight: bold;
+    border-width: 0px;
+    padding: 2px;
+    border-style: none;
+    border-color: none;
+}
+
+table.cellClearTable th {
+    border-width: 0px;
+}
+
+table.cellClearTable td {
+    border-width: 0px;
+}
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | TABLE: Blue Header                                                   |
+ * +----------------------------------------------------------------------+
+ */
+
+caption.blueHeaderTable {
+     background-color: #8080ff;
+     color: white;
+     border-style: solid;
+     border-width: 2px;
+     border-color: black;
+}
+
+table.blueHeaderTable {
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: outset;
+    border-color: rgb(196, 209, 230);
+    border-collapse: collapse;
+    background-color: rgb(238, 243, 247);
+    width: 95%;
+}
+
+th.blueHeaderTable {
+   font-size: 10pt;
+   color: white;
+}
+
+tr.blueHeaderTable {
+}
+
+td.blueHeaderTable {
+    font-size: 10pt;
+    background-color: #ffffff;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | UL: Custom Bullet                                                    |
+ * +----------------------------------------------------------------------+
+ */
+
+ol {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #000000;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+ul {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #000000;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+
+ol.cellGradationTable {
+    font-family: verdana,arial,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    text-decoration: none;
+}
+
+ul.customBulletBrownTriangleTable {
+  list-style-image: url('/images/mini_brown_arrow2.gif');
+  font-family: verdana,arial,sans-serif;
+  font-size: 11px;
+  color: #333333;
+  text-decoration: none;
+}
+
+ul.customBulletRedSquareShadow {
+  list-style-image: url('/images/mini_avocent_bullet1.gif')
+}
+
+ul.customBulletRedSquare {
+  list-style-image: url('/images/mini_avocent_bullet2.gif')
+}
+
+ul.customBulletDatabaseBlue {
+  list-style-image: url('/images/mini_database_blue.gif')
+}
+
+ul.customBulletDatabaseWhite {
+  list-style-image: url('/images/mini_database_oo3.gif')
+}
+
+ul.customBulletDatabaseOra3 {
+  list-style-image: url('/images/mini_oracle_database3.gif')
+}
+
+ul.customBulletDatabaseSql2005 {
+  list-style-image: url('/images/mini_sqlserver_2005_database.gif')
+}
+
+ul.customBulletJavaWebServices {
+  list-style-image: url('/images/mini_jdev_web_services_1.gif')
+}
+
+ul.customBulletFolder7 {
+  list-style-image: url('/images/mini_folder7.gif')
+}
+
+ul.customBulletDisk1 {
+  list-style-image: url('/images/mini_disk1.gif')
+}
+
+ul.customBulletBlueDiamond {
+  list-style-image: url('/images/blue-diamond.gif')
+}
+
+ul.customBulletBlackDiamond {
+  list-style-image: url('/images/black-diamond.gif')
+}
+
+ul.customBulletRedDiamond {
+  list-style-image: url('/images/red-diamond.gif')
+}
+
+ul.customBulletBrownDiamond {
+  list-style-image: url('/images/brown-diamond2.gif')
+}
+
+ul.customBulletRedTriangle {
+  list-style-image: url('/images/red-triangle.gif')
+}
+
+/* +++++++++ BROWN TRIANGLE / LIST +++++++++ */
+
+ul.customBulletBrownTriangle {
+  list-style-image: url('/images/mini_brown_arrow2.gif');
+}
+
+ul.customBulletBrownTriangle li {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+ul.customBulletBrownTriangle ul li {
+  list-style-image: url('/images/brown-diamond2.gif');
+}
+
+ul.customBulletBrownTriangleNoIndent {
+  list-style-image: url('/images/mini_brown_arrow2.gif');
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+/* +++++++++ BROWN TRIANGLE / LIST +++++++++ */
+
+ul.customBulletBlueTriangleUp {
+  list-style-image: url('/images/blue_triangle_up.gif')
+}
+
+ul.customBulletBlueTriangleDown {
+  list-style-image: url('/images/blue_triangle_down.gif')
+}
+
+ul.customBulletCheckGreen {
+  list-style-image: url('/images/check_green.gif')
+}
+
+ul.customBulletCheckGreen2 {
+  list-style-image: url('/images/mini_oracle_oem10g_status_ok.gif')
+}
+
+ul.customBulletCheckRed {
+  list-style-image: url('/images/check_red.gif')
+}
+
+ul.customBulletCheckRed2 {
+  list-style-image: url('/images/mini_oracle_oem10g_status_critical.gif')
+}
+
+ul.customBulletCheckMarkGreen {
+  list-style-image: url('/images/mini_checkmark_green6.gif')
+}
+
+ul.customBulletCheckMarkRed {
+  list-style-image: url('/images/mini_checkmark_red6.gif')
+}
+
+ul.customBulletOEMBlueTriangleBlank {
+  list-style-image: url('/images/mini_oem_blue_triangle_blank.gif')
+}
+
+ul.customBulletDownload1 {
+  list-style-image: url('/images/mini_download_app_green_arrow.gif')
+}
+
+ul.customBulletDownload2 {
+  list-style-image: url('/images/mini_download_app_red_arrow.gif')
+}
+
+ul.customBulletDownload3 {
+  list-style-image: url('/images/mini_download_app_brown_arrow.gif')
+}
+
+ul.customBulletWindowsService1 {
+  list-style-image: url('/images/mini_windows_service_2008_1.gif')
+}
+
+ul.customBulletAllFilesSql2005 {
+  list-style-image: url('/images/mini_sqlserver_2005_all_files.gif')
+}
+
+ul.customBulletPhysicalFileMDFSql2005 {
+  list-style-image: url('/images/mini_sqlserver_2005_file_mdf.gif')
+}
+
+ul.customBulletPhysicalFileLDFSql2005 {
+  list-style-image: url('/images/mini_sqlserver_2005_file_ldf.gif')
+}
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | UL: Bullet                                                           |
+ * +----------------------------------------------------------------------+
+ */
+
+ul.noBulletNoIndent {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px
+}
+
+ul.noBullet {
+  list-style-type: none;
+}
+
+ul.noBullet li {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+/*
+ * +----------------------------------------------------------------------+
+ * | ANCHOR: Color / noLink                                               |
+ * +----------------------------------------------------------------------+
+ */
+
+a.noLink {
+    text-decoration: none;
+}
+
+a.noLinkYellow {
+    color:yellow; text-decoration: none;
+}
+
+/*
+a.noLinkBlue {
+    color:blue; text-decoration: none;
+}
+*/
+
+/*
+a.noLinkBlue {
+    color:#005ca0; text-decoration: none;
+}
+*/
+
+a.noLinkBlue {
+    color:#005cf0; text-decoration: none;
+}
+
+a.noLinkOrange {
+    color:orange; text-decoration: none;
+}
+
+a.noLinkCyan {
+    color:cyan; text-decoration: none;
+}
+
+a.noLinkGreen  {
+    color:cream; text-decoration: none;
+}
+
+a.noLinkRed {
+    color:red; text-decoration: none;
+}
+
+a.noLinkBrown {
+    color:brown; text-decoration: none;
+}
+
+a.noLinkOEM1 {
+    color:#633000; text-decoration: none;
+}
+
+a.noLinkOEM2 {
+    color:#9c6531; text-decoration: none;
+}
+
+a.noLinkAmazon {
+    color:#cc6600; text-decoration: none;
+}
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | SECTION HEADERS                                                      |
+ * +----------------------------------------------------------------------+
+ */
+
+/*
+h1 {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #005ca0;
+    font-size: 14pt;
+    padding-top: 1.0em;
+    padding-bottom: 0.3em;
+    margin-right: 7%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+*/
+
+h1 {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #005ca0;
+    font-size: 12pt;
+    padding-top: 1.0em;
+}
+
+
+
+
+/* Blue (H2) Header */
+h2 {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #005ca0;
+    font-size: 10pt;
+    padding-top: 1.2em;
+    /* padding-bottom: 0.3em; */
+}
+
+/* Blue (H3) Header */
+h3 {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #005ca0;
+    font-size: 9pt;
+    padding-top: 1.2em;
+    /* padding-bottom: 0.3em; */
+}
+
+/* Brown (H2) Header */
+/*
+h2 {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #693019;
+    font-size: 10pt;
+    padding-top: 1.2em;
+    padding-bottom: 0.3em;
+}
+*/
+
+/* Brown (H3) Header */
+/*
+h3 {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #693019;
+    font-size: 9pt;
+    padding-top: 1.2em;
+    padding-bottom: 0.3em;
+}
+*/
+
+.indexHeader2Brown {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #693019;
+    font-size: 11pt;
+    font-weight: bold;
+    padding-top: 1.2em;
+}
+
+.indexHeader2Blue {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #005ca0;
+    font-size: 11pt;
+    font-weight: bold;
+    padding-top: 1.2em;
+}
+
+.indexHeader3Brown {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #693019;
+    font-size: 10pt;
+    font-weight: bold;
+    padding-top: 1.2em;
+}
+
+.indexHeader3Blue {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #005ca0;
+    font-size: 10pt;
+    font-weight: bold;
+    padding-top: 1.2em;
+}
+
+
+/* CHANGE THIS TO fontArticleTitle */
+.fontArticleTitle {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #005ca0;
+    font-size: 20pt;
+    padding-top: 1.0em;
+}
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | IMAGE / MESSAGE BOX / TABLE PADDING                                  |
+ * +----------------------------------------------------------------------+
+ */
+
+.boxLeftPadding {
+    padding: 1px;
+}
+
+.imgFigureText {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #000000;
+    font-size: 10pt;
+}
+
+.imgCenterPadding {
+    padding: 1px;
+}
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | FONT FAMILY                                                          |
+ * +----------------------------------------------------------------------+
+ */
+
+
+p {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #000000;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+
+/*
+body {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #000000;
+    font-size: 10pt;
+    text-decoration: none;
+}
+*/
+
+/*
+b {
+    clear:both;
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #000000;
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+i {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    color: #000000;
+    font-size: 11pt;
+    font-style: italic;
+    text-decoration: none;
+}
+*/
+
+.fontOEM10gLink {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    font-size: 10pt;
+    color: #663300;
+    text-decoration: none;
+}
+
+.fontOEM10gLinkUnderline {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    font-size: 10pt;
+    color: #663300;
+    text-decoration: underline;
+}
+
+.fontOEM10g {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    font-size: 10pt;
+    color: #000000;
+    text-decoration: none;
+}
+
+.fontiDevBlue {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #005ca0;
+}
+
+.fontiDevBlueDefaultFont {
+    text-decoration: none;
+    color: #005ca0;
+}
+
+.fontiDevOutput {
+    text-decoration: none;
+    color: #606060;
+}
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | INDENTING A PARAGRAPH                                                |
+ * +----------------------------------------------------------------------+
+ */
+
+.indentHeading1 {
+    padding-left: 30pt;
+    padding-right: 30pt;
+}
+
+.indentHeading2 {
+    padding-left: 60pt;
+    padding-right: 60pt;
+}
+
+.indentHeading3 {
+    padding-left: 90pt;
+    padding-right: 90pt;
+}
+
+.indentHeading4 {
+    padding-left: 120pt;
+    padding-right: 120pt;
+}
+
+.indent5 {
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+
+.indent10 {
+    padding-left: 10pt;
+    padding-right: 10pt;
+}
+
+.indent12 {
+    padding-left: 12pt;
+    padding-right: 12pt;
+}
+
+.indent13 {
+    padding-left: 13pt;
+    padding-right: 13pt;
+}
+
+.indent14 {
+    padding-left: 14pt;
+    padding-right: 14pt;
+}
+
+.indent15 {
+    padding-left: 15pt;
+    padding-right: 15pt;
+}
+
+.indent18 {
+    padding-left: 18pt;
+    padding-right: 18pt;
+}
+
+.indent19 {
+    padding-left: 19pt;
+    padding-right: 19pt;
+}
+
+.indent20 {
+    padding-left: 20pt;
+    padding-right: 20pt;
+}
+
+.indent50 {
+    padding-left: 50pt;
+    padding-right: 50pt;
+}
+
+
+/*
+ * +----------------------------------------------------------------------+
+ * | CODE BLOCK                                                           |
+ * +----------------------------------------------------------------------+
+ */
+
+/*
+    border-color: rgb(196, 209, 230);
+    border-collapse: collapse;
+    background-color: rgb(238, 243, 247);
+*/
+
+/*
+.wp_syntax {
+  color: #100;
+  background-color: #f9f9f9;
+  border: 1px solid silver;
+  margin: 0 0 1.5em 0;
+  overflow: auto;
+}
+*/
+
+.wp_syntax {
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: outset;
+    border-color: rgb(196, 209, 230);
+    border-collapse: collapse;
+    background-color: rgb(238, 243, 247);
+  margin: 0 0 1.5em 0;
+  overflow: auto;
+}
+
+/* IE FIX */
+.wp_syntax {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: expression(this.scrollWidth > this.offsetWidth ? 15 : 0);
+  width: 100%;
+}
+
+.wp_syntax table {
+  border-collapse: collapse;
+}
+
+.wp_syntax div, .wp_syntax td {
+  vertical-align: top;
+  padding: 2px 4px;
+}
+
+.wp_syntax .line_numbers {
+  text-align: right;
+  background-color: #def;
+  color: gray;
+  overflow: visible;
+}
+
+/* potential overrides for other styles */
+.wp_syntax pre {
+  margin: 0;
+  width: auto;
+  float: none;
+  clear: none;
+  overflow: visible;
+  font-size: 12px;
+  line-height: 1.333;
+  white-space: pre;
+}
+
+/*
+ * +----------------------------------------------------------------------+
+ * | END                                                                  |
+ * +----------------------------------------------------------------------+
+ */
+
