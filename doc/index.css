@@ -12,10 +12,10 @@
  */
 
 table.messageDialogBox {
-    border-width: 2px;
-    border-spacing: 2px;
-    border-style: ridge;
-    border-color: gray;
+        border-width: 2px;
+        border-spacing: 2px;
+        border-style: ridge;
+        border-color: gray;
     border-collapse: separate;
     background-color: rgb(224, 224, 224);
     width: 590px;
