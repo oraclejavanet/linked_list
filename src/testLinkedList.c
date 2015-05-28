@@ -1,5 +1,11 @@
 /*
- ** testLinkedList.c
+ * +-----------------------------------------------------------+
+ * | File:   testLinkedList.c                                  |
+ * | Author: Jeffrey Hunter, OCP                               |
+ * |         Sr. Computer Scientist and Mathematics Programmer |
+ * |         jhunter@iDevelopment.info                         |
+ * |         www.iDevelopment.info                             |
+ * +-----------------------------------------------------------+
  */
 
 #include <stdio.h>

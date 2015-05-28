@@ -1,5 +1,11 @@
 /*
- **  list.c
+ * +-----------------------------------------------------------+
+ * | File:   list.c                                            |
+ * | Author: Jeffrey Hunter, OCP                               |
+ * |         Sr. Computer Scientist and Mathematics Programmer |
+ * |         jhunter@iDevelopment.info                         |
+ * |         www.iDevelopment.info                             |
+ * +-----------------------------------------------------------+
  */
 
 #include "list.h"
